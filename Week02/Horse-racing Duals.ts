@@ -8,7 +8,7 @@ values.length = N;
 
 for (let i = 0; i < N; i++) {
   const pi = parseInt(readline());
-  values[i] = pi
+  values[i] = pi;
 }
 values.sort((a, b) => a - b); // sort
 let diff = 10000000;
